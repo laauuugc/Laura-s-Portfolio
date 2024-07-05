@@ -1,0 +1,42 @@
+[
+    {
+      "title": "Pomodoro Website",
+      "imageSrc": "projects/pomodoro.png",
+      "description": "Customisable pomodoro study method website.",
+      "skills": ["HTML", "CSS", "Javascript"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/laauuugc/Cute-Pomodoro"
+    },
+    {
+      "title": "Playlist Creator",
+      "imageSrc": "projects/playlist.png",
+      "description": "Creating and shuffling music playlists.",
+      "skills": ["C"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/laauuugc/PROJECT1_repo"
+    },
+    {
+      "title": "Gannt Chart Generator",
+      "imageSrc": "projects/gannt.png",
+      "description": "Create and edit Gannt Charts for project organisation.",
+      "skills": ["C"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/laauuugc/PROJECT2/tree/main"
+    },
+    {
+      "title": "Kanban Board",
+      "imageSrc": "projects/kanban.png",
+      "description": "Create and edit Kanban boards to keep track of items.",
+      "skills": ["C"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/laauuugc/PROJECT3"
+    },
+    {
+      "title": "Cardiac Health Assesment",
+      "imageSrc": "projects/cardiac.png",
+      "description": "Cardiac health assesment program to determine cardiac risk.",
+      "skills": ["C"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/laauuugc/Cardiac_Health"
+    }
+  ]
