@@ -13,27 +13,19 @@ export const About = () => {
             className={styles.aboutImage}
             />
             <ul className={styles.aboutItems}>
-                <li className={styles.aboutItem}>
-                    <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
-                    <div className={styles.aboutItemText}>
-                        <h3>Frontend Developer</h3>
-                        <p>I´m a Frontend Developer experienced in developing responsive and optimised webs</p>
-                    </div>
-                </li>
-                <li className={styles.aboutItem}>
-                    <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
-                    <div className={styles.aboutItemText}>
-                        <h3>Backend Developer</h3>
-                        <p>I´m a Backend Developer experienced in developing fast and enhanced systems</p>
-                    </div>
-                </li>
-                <li className={styles.aboutItem}>
-                    <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
-                    <div className={styles.aboutItemText}>
-                        <h3>UI Designer</h3>
-                        <p>I have designed multiple professional websites and digital illustrations</p>
-                    </div>
-                </li>
+            {[
+          { icon: "about/cursorIcon.png", title: "Frontend Developer", text: "I'm a Frontend Developer experienced in developing responsive and optimized websites." },
+          { icon: "about/serverIcon.png", title: "Backend Developer", text: "I'm a Backend Developer experienced in developing fast and efficient systems." },
+          { icon: "about/uiIcon.png", title: "UI Designer", text: "I have designed multiple professional websites and digital illustrations." },
+        ].map((item, index) => (
+          <li className={styles.aboutItem} key={index}>
+            <img src={getImageUrl(item.icon)} alt={`${item.title} icon`} />
+            <div className={styles.aboutItemText}>
+              <h3>{item.title}</h3>
+              <p>{item.text}</p>
+            </div>
+          </li>
+        ))}
             </ul>
         </div>
     </section>
