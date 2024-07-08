@@ -13,7 +13,7 @@ export const Hero = () => {
         </p>
         <a href="mailto:laauuugc@gmail.com" className={styles.contactBtn}>Contact Me</a>
     </div>
-    <img src={getImageUrl("hero/heroImage.png")} 
+    <img src={getImageUrl("hero/circle.png")} 
     alt="Hero image of me" 
     className={styles.heroImg}
     />
