@@ -34,7 +34,7 @@
     color: #fff;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
 }
 
 .aboutItem {
@@ -63,7 +63,8 @@
 }
 
 .aboutItem p {
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 12px;
 }
 
 @media screen and (max-width: 830px) {
