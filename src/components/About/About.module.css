@@ -2,17 +2,17 @@
 
 .container {
     position: relative;
-    background-color: rgba(87,108,188, 0.6);
+    background-color: #576cbc;
     border-radius: 15px;
-    padding: 73px;
-    margin-top: 30px;
+    padding: 28px;
+    margin-top: 28px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .title {
-    color: var(--color-text);
+    color: #fff;
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
@@ -31,7 +31,7 @@
 }
 
 .aboutItems {
-    color: var(--color-text);
+    color: #fff;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -50,7 +50,7 @@
     );
     background-size: 0 100%;
     background-repeat: no-repeat;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .aboutItem:hover {
@@ -67,7 +67,7 @@
 }
 
 @media screen and (max-width: 830px) {
-    .conatiner {
+    .container {
         background-color: transparent;
         padding-left: 0;
         padding-right: 0;
