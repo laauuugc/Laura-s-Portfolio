@@ -38,5 +38,13 @@
       "skills": ["C"],
       "demo": "https://www.example.com",
       "source": "https://github.com/laauuugc/Cardiac_Health"
+    },
+    {
+      "title": "ML Income Predictor",
+      "imageSrc": "projects/cardiac.png",
+      "description": "Machine Learning project to predict high incomes",
+      "skills": ["Python", "Jupyter Notebooks"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/laauuugc/Income"
     }
   ]
