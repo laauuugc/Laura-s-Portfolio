@@ -16,7 +16,7 @@ export const About = () => {
             {[
           { icon: "about/cursorIcon.png", title: "Frontend Developer", text: "I'm a Frontend Developer experienced in developing responsive and optimized websites." },
           { icon: "about/serverIcon.png", title: "Backend Developer", text: "I'm a Backend Developer experienced in developing fast and efficient systems." },
-          { icon: "about/uiIcon.png", title: "UI Designer", text: "I have designed multiple professional websites and digital illustrations." },
+          { icon: "about/uiIcon.png", title: "UX Designer", text: "I have designed multiple professional websites and done research case studies." },
         ].map((item, index) => (
           <li className={styles.aboutItem} key={index}>
             <img src={getImageUrl(item.icon)} alt={`${item.title} icon`} />

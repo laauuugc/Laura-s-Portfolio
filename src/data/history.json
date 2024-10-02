@@ -1,10 +1,10 @@
 [
     {
-      "role": "Graphics Officer",
+      "role": "Senior Graphics Officer",
       "organisation": "UCD Netsoc",
       "startDate": "May, 2024",
       "endDate": "Present",
-      "experiences": ["Promotional content in Photoshop and Canva", "Illustrations on Procreate"],
+      "experiences": ["Promotional content in Photoshop and Canva, increasing followers by 25%", "Mascot illustrations on Procreate"],
       "imageSrc": "history/netsoc.jpeg"
     },
     {
@@ -12,7 +12,7 @@
       "organisation": "University College Dublin",
       "startDate": "April, 2024",
       "endDate": "Present",
-      "experiences": ["Formed groups on social media", "Organised events for first-years"],
+      "experiences": ["Guidance and support to 10 new students", "Managed groups on social media for communication and events"],
       "imageSrc": "history/ucd.png"
     },
     {
@@ -21,8 +21,8 @@
       "startDate": "Sept, 2023",
       "endDate": "May, 2024",
       "experiences": [
-        "Gathered feedback and informed the committee",
-        "Organised Science fairs and weekly events"
+        "Facilitated communication between members and committee",
+        "Coordinated event logistics weekly, gathering feedback"
       ],
       "imageSrc": "history/netsoc.jpeg"
     },
@@ -32,8 +32,8 @@
       "startDate": "Sept, 2021",
       "endDate": "May, 2024",
       "experiences": [
-        "Prepared students for exams and assignments",
-        "Increased results by 80%"
+        "Prepared students for exams and assignments exceeding expected results by 15%",
+        "Tailored teaching methods to each"
       ],
       "imageSrc": "history/iesjuan.png"
     }

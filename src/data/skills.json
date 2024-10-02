@@ -28,6 +28,14 @@
       "imageSrc": "skills/figma.png"
     },
     {
+      "title": "Java",
+      "imageSrc": "skills/java.png"
+    },
+    {
+      "title": "MySQL",
+      "imageSrc": "skills/sql.png"
+    },
+    {
       "title": "Scheme",
       "imageSrc": "skills/scheme.png"
     }
