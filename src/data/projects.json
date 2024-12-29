@@ -1,11 +1,11 @@
 [
     {
-      "title": "Pomodoro Website",
-      "imageSrc": "projects/pomodoro.png",
-      "description": "Customisable pomodoro study method website.",
-      "skills": ["HTML", "CSS", "Javascript"],
+      "title": "Cafe Management",
+      "imageSrc": "projects/cafe.png",
+      "description": "Management system for a cafe in Madrid.",
+      "skills": ["Java", "MySQL", "Java Swing"],
       "demo": "https://www.example.com",
-      "source": "https://github.com/laauuugc/Cute-Pomodoro"
+      "source": "https://github.com/laauuugc/CafeManagement"
     },
     {
       "title": "Gannt Chart Generator",
@@ -22,5 +22,13 @@
       "skills": ["Python", "Jupyter Notebooks"],
       "demo": "https://www.example.com",
       "source": "https://github.com/laauuugc/Income"
+    },
+    {
+      "title": "Pomodoro Website",
+      "imageSrc": "projects/pomodoro.png",
+      "description": "Customisable pomodoro study method website.",
+      "skills": ["HTML", "CSS", "Javascript"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/laauuugc/Cute-Pomodoro"
     }
   ]
