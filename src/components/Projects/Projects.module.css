@@ -21,9 +21,32 @@
   margin-top: 37px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
+  gap: 45px;
   width: 100%;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  scroll-snap-type: x mandatory; /* Smooth snap to projects */
+  -webkit-overflow-scrolling: touch; /* Improves touch scroll on iOS */
+  padding-bottom: 10px;
+}
+
+/* Hide scrollbar for a cleaner look */
+.projects::-webkit-scrollbar {
+  display: none;
+}
+
+.projects > * {
+  scroll-snap-align: start; /* Each project aligns nicely */
+  flex: 0 0 auto; /* Prevents items from shrinking */
+  width: 300px; /* Adjust card size */
+  max-width: 90vw; /* Makes it responsive */
+}
+
+@media screen and (max-width: 830px) {
+  .projects {
+    gap: 10px;
+  }
+
+  .projects > * {
+    width: 250px; /* Slightly smaller on mobile */
+  }
 }
