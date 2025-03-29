@@ -9,7 +9,7 @@ export const About = () => {
         <div className={styles.content}>
             <img 
             src={getImageUrl("about/aboutImage.png")} 
-            alt="Me sitting with a laptop"
+            alt="Me eating popcorn"
             className={styles.aboutImage}
             />
             <ul className={styles.aboutItems}>
@@ -19,7 +19,7 @@ export const About = () => {
           { icon: "about/serverIcon.png", title: "Chapter 2", 
             text: "Despite the funny accent, cool colours and character drawings, I promise I'm not a poser. Since I started college, I've held jobs at different university organisations as well as being self-employed. At the same time, I've created several projects and participated in hackathons." },
           { icon: "about/uiIcon.png", title: "Chapter 3", 
-            text: "I'm always on a quest to up my craft and learn new coding languages and tech. When I'm not on a computer, you can find me painting whatever is in my mind, reading fantasy books or cuddling my cat(Asia) while listening to Taylor Swift or Billie Eilish." },
+            text: "I'm always on a quest to up my craft and learn new coding languages and tech. When I'm not on a computer, you can find me painting whatever is in my mind, reading fantasy books or cuddling my cat(Asia) while listening to Taylor Swift and drinking matcha." },
         ].map((item, index) => (
           <li className={styles.aboutItem} key={index}>
             <img src={getImageUrl(item.icon)} alt={`${item.title} icon`} />
