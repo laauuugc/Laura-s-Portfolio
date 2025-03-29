@@ -36,6 +36,7 @@
     font-family: 'Margarine', sans-serif; /* Apply Margarine font */
 }
 
+/* For iPhone and iPad-sized screens */
 @media screen and (max-width: 830px) {
     .navbar {
         flex-direction: column;
@@ -55,8 +56,10 @@
     .menuBtn {
         display: block;
         cursor: pointer;
+        width: 20px; /* Set a small width */
+        height: 20px; /* Set a small height */
     }
-
+    
     .menuItems {
         display: none;
         flex-direction: column;
@@ -76,5 +79,12 @@
     .menuOpen {
         display: flex;
         z-index: 1;
+    }
+}
+
+/* For Laptop-sized screens (hide menu icon) */
+@media screen and (min-width: 1024px) {
+    .menuBtn {
+        display: none; /* Hide menu icon */
     }
 }
