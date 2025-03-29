@@ -6,17 +6,33 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 61px;
+    padding-top: 10px;
     z-index: 2;
     margin: 0 10%;
 }
 
 .title {
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
-    color: var(--color-text);
-    font-family: 'Margarine', sans-serif; /* Apply Margarine font */
+    display: none; /* No longer needed */
+}
+
+/* Logo styling */
+.logo {
+    width: 150px;  /* Default size */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+/* Responsive logo for smaller screens */
+@media screen and (max-width: 830px) {
+    .logo {
+        width: 120px;  /* Smaller on mobile */
+    }
+}
+
+/* Further adjustments for extra small screens */
+@media screen and (max-width: 480px) {
+    .logo {
+        width: 100px;  /* Even smaller on very small devices */
+    }
 }
 
 .menu {
