@@ -15,7 +15,7 @@ export const About = () => {
             <ul className={styles.aboutItems}>
             {[
           { icon: "about/cursorIcon.png", title: "Chapter 1", 
-            text: "Hey, I'm Laura. I'm a developer living in cloudy, most times too cloudy, Dublin. I could say coding is my passion but that's too cringe and I can only be so many cliches (take a wild guess on whether I wear glasses or not)." },
+            text: "Hey, I'm Laura. I'm a developer living in cloudy, most times too cloudy, Dublin. I could say coding is my passion but that's too cringe and I can only be so many cliches (guess whether I wear glasses or not)." },
           { icon: "about/serverIcon.png", title: "Chapter 2", 
             text: "Despite the funny accent, cool colours and character drawings, I promise I'm not a poser. Since I started college, I've held jobs at different university organisations as well as being self-employed. At the same time, I've created several projects and participated in hackathons." },
           { icon: "about/uiIcon.png", title: "Chapter 3", 
