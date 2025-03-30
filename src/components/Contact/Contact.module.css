@@ -38,13 +38,20 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
+}
+
+/* 🔹 Ensure all icons are the same size & responsive */
+.link img {
+  width: 40px; /* Fixed size for consistency */
+  height: 40px;
+  object-fit: contain; /* Prevent distortion */
 }
 
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 400;
   letter-spacing: 1.5px;
 }
@@ -53,15 +60,26 @@
   .container {
     flex-direction: column;
     gap: 23px;
+    align-items: center; /* Center on smaller screens */
   }
 
   .text {
+    text-align: center; /* Keep text centered */
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .links {
-    align-items: center;
+    align-items: flex-start;
+  }
+
+  .link img {
+    width: 35px; /* Slightly smaller icons for mobile */
+    height: 35px;
+  }
+
+  .link a {
+    font-size: 24px; /* Adjust text size for smaller screens */
   }
 }
