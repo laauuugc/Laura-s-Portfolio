@@ -95,6 +95,13 @@
   border-radius: 10px;
   padding: 24px;
   width: 100%;
+  transition: background 0.2s ease, color 0.2s ease; /* Smooth transition */
+}
+
+/* 🔹 Change color on hover */
+.historyItem:hover {
+  background: #a3b6ff; /* Change background color */
+  color: #000000; /* Change text color */
 }
 
 .historyItem img {
