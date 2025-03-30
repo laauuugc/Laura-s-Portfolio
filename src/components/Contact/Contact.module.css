@@ -54,6 +54,12 @@
   font-size: 28px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  transition: color 0.2s ease; /* Smooth transition */
+}
+
+/* 🔹 Change color on hover */
+.link a:hover {
+  color: #fff; /* Change text color */
 }
 
 @media screen and (max-width: 830px) {
