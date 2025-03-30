@@ -1,47 +1,47 @@
 [
     {
-      "role": "Senior Graphics Officer",
+      "role": "SENIOR GRAPHICS OFFICER",
       "organisation": "UCD Netsoc",
       "startDate": "May, 2024",
       "endDate": "Present",
-      "experiences": ["Promotional content in Photoshop and Canva, increasing followers by 25%", "Mascot illustrations on Procreate"],
+      "experiences": ["Created promotional material in Photoshop and Canva, maintaining brand consistency across all platforms.", "Designed characters and engaging illustrations on Procreate, increasing follower engagement by 25%."],
       "imageSrc": "history/netsoc.jpeg"
     },
     {
-      "role": "Student Leader",
+      "role": "STUDENT LEADER",
       "organisation": "UCD College of Science",
       "startDate": "Sept, 2024",
       "endDate": "Present",
-      "experiences": ["Campus tours for +100 prospective students across informative events, effectively communicating about science programs"],
+      "experiences": ["Led campus tours for over 100 prospective students across informative events, effectively communicating complex concepts about science programs and student life to diverse audiences."],
       "imageSrc": "history/science.jpeg"
     },
     {
-      "role": "Peer Mentor",
+      "role": "PEER MENTOR",
       "organisation": "University College Dublin",
       "startDate": "April, 2024",
       "endDate": "Present",
-      "experiences": ["Guidance and support to 10 new students", "Managed groups on social media for communication and events"],
+      "experiences": ["Provided guidance and support to 10 new students, fostering a welcoming and inclusive community.", "Created and managed groups on social media, to enhance communication and organise educational events."],
       "imageSrc": "history/ucd.png"
     },
     {
-      "role": "First-Year Representative",
+      "role": "FIRST-YEAR REPRESENTATIVE",
       "organisation": "UCD Netsoc",
       "startDate": "Sept, 2023",
       "endDate": "May, 2024",
       "experiences": [
-        "Facilitated communication between members and committee",
-        "Coordinated event logistics weekly, gathering feedback"
+        "Facilitated communication between members and committee, ensuring information flow in person and online.",
+        "Coordinated events weekly with Trello and Excel, gathering feedback and leading to 93% member satisfaction."
       ],
       "imageSrc": "history/netsoc.jpeg"
     },
     {
-      "role": "Mathematics Tutor",
+      "role": "MATHEMATICS TUTOR",
       "organisation": "IES Juan de Mairena",
       "startDate": "Sept, 2021",
       "endDate": "May, 2024",
       "experiences": [
-        "Prepared students for exams and assignments exceeding expected results by 15%",
-        "Tailored teaching methods to each"
+        "Prepared primary and high school students for exams and assignments, exceeding expected results by 15%.",
+        "Tailored my teaching to individual needs, and receiving compliments for efficient and engaging methods."
       ],
       "imageSrc": "history/iesjuan.png"
     }
