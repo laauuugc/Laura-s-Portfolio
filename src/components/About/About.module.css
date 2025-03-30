@@ -52,11 +52,12 @@
     );
     background-size: 0 100%;
     background-repeat: no-repeat;
-    transition: 0.2s;
+    transition: background-size 0.01s ease-in-out !important;
 }
 
 .aboutItem:hover {
     background-size: 100% 100%;
+    transition: background-size 0s !important;
 }
 
 .aboutItem h3 {
@@ -87,5 +88,10 @@
     .aboutItem {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .aboutItem:hover {
+        background-size: 100% 100%;
+        transition: background-size 0s !important; /* Force instant hover */
     }
 }
