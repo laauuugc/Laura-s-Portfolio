@@ -1,6 +1,6 @@
 [
     {
-      "title": "Cafe Management",
+      "title": "CAFE MANAGEMENT",
       "imageSrc": "projects/cafe.png",
       "description": "Management system for a cafe in Madrid.",
       "skills": ["Java", "MySQL", "Java Swing"],
@@ -8,7 +8,7 @@
       "source": "https://github.com/laauuugc/CafeManagement"
     },
     {
-      "title": "Gannt Chart Generator",
+      "title": "GANNT CHART GENERATOR",
       "imageSrc": "projects/gannt.png",
       "description": "Create and edit Gannt Charts for project organisation.",
       "skills": ["C"],
@@ -16,7 +16,7 @@
       "source": "https://github.com/laauuugc/PROJECT2/tree/main"
     },
     {
-      "title": "ML Income Predictor",
+      "title": "ML INCOME PREDICTOR",
       "imageSrc": "projects/cardiac.png",
       "description": "Machine Learning project to predict high incomes",
       "skills": ["Python", "Jupyter Notebooks"],
@@ -24,7 +24,7 @@
       "source": "https://github.com/laauuugc/Income"
     },
     {
-      "title": "Pomodoro Website",
+      "title": "POMODORO WEBSITE",
       "imageSrc": "projects/pomodoro.png",
       "description": "Customisable pomodoro study method website.",
       "skills": ["HTML", "CSS", "Javascript"],

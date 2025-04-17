@@ -29,8 +29,6 @@
   padding-bottom: 10px;
 }
 
-
-
 .projects > * {
   scroll-snap-align: start; /* Each project aligns nicely */
   flex: 0 0 auto; /* Prevents items from shrinking */
