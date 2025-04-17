@@ -8,8 +8,8 @@
       "source": "https://github.com/laauuugc/CafeManagement"
     },
     {
-      "title": "GANNT CHART GENERATOR",
-      "imageSrc": "projects/gannt.png",
+      "title": "GANNT GENERATOR",
+      "imageSrc": "projects/project.png",
       "description": "Create and edit Gannt Charts for project organisation.",
       "skills": ["C"],
       "demo": "https://www.example.com",
@@ -17,7 +17,7 @@
     },
     {
       "title": "ML INCOME PREDICTOR",
-      "imageSrc": "projects/cardiac.png",
+      "imageSrc": "projects/project.png",
       "description": "Machine Learning project to predict high incomes",
       "skills": ["Python", "Jupyter Notebooks"],
       "demo": "https://www.example.com",
@@ -25,7 +25,7 @@
     },
     {
       "title": "POMODORO WEBSITE",
-      "imageSrc": "projects/pomodoro.png",
+      "imageSrc": "projects/project.png",
       "description": "Customisable pomodoro study method website.",
       "skills": ["HTML", "CSS", "Javascript"],
       "demo": "https://www.example.com",
