@@ -9,7 +9,7 @@
     },
     {
       "title": "GANNT GENERATOR",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/gannt.png",
       "description": "Create and edit Gannt Charts for project organisation.",
       "skills": ["C"],
       "demo": "https://www.example.com",
@@ -25,7 +25,7 @@
     },
     {
       "title": "POMODORO WEBSITE",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/pomodoro.png",
       "description": "Customisable pomodoro study method website.",
       "skills": ["HTML", "CSS", "Javascript"],
       "demo": "https://www.example.com",
