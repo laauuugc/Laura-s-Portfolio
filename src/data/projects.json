@@ -5,7 +5,8 @@
       "description": "Management system for a cafe in Madrid.",
       "skills": ["Java", "MySQL", "Java Swing"],
       "demo": "https://www.example.com",
-      "source": "https://github.com/laauuugc/CafeManagement"
+      "source": "https://github.com/laauuugc/CafeManagement",
+      "videoUrl": "https://www.youtube.com/embed/your-video-id-1"
     },
     {
       "title": "GANNT GENERATOR",
@@ -13,7 +14,8 @@
       "description": "Create and edit Gannt Charts for project organisation.",
       "skills": ["C"],
       "demo": "https://www.example.com",
-      "source": "https://github.com/laauuugc/PROJECT2/tree/main"
+      "source": "https://github.com/laauuugc/PROJECT2/tree/main",
+      "videoUrl": "https://www.youtube.com/embed/your-video-id-2"
     },
     {
       "title": "ML INCOME PREDICTOR",
@@ -21,7 +23,8 @@
       "description": "Machine Learning project to predict high incomes",
       "skills": ["Python", "Jupyter Notebooks"],
       "demo": "https://www.example.com",
-      "source": "https://github.com/laauuugc/Income"
+      "source": "https://github.com/laauuugc/Income",
+      "videoUrl": "https://www.youtube.com/embed/your-video-id-3"
     },
     {
       "title": "POMODORO WEBSITE",
@@ -29,6 +32,7 @@
       "description": "Customisable pomodoro study method website.",
       "skills": ["HTML", "CSS", "Javascript"],
       "demo": "https://www.example.com",
-      "source": "https://github.com/laauuugc/Cute-Pomodoro"
+      "source": "https://github.com/laauuugc/Cute-Pomodoro",
+      "videoUrl": "https://www.youtube.com/embed/your-video-id-4"
     }
   ]
