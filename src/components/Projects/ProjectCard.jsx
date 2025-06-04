@@ -6,7 +6,7 @@ import styles from "./ProjectCard.module.css";
 import { ProjectPopup } from "./ProjectPopup";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, source, videoUrl },
+  project: { title, imageSrc, description, largeDescription, skills, source, videoUrl },
 }) => {
   const [showPopup, setShowPopup] = useState(false);
 
@@ -40,7 +40,7 @@ export const ProjectCard = ({
       </div>
       {showPopup && (
         <ProjectPopup
-          project={{ title, description, skills, videoUrl }}
+          project={{ title, largeDescription, skills, videoUrl }}
           onClose={() => setShowPopup(false)}
         />
       )}
@@ -53,6 +53,7 @@ ProjectCard.propTypes = {
     title: PropTypes.string.isRequired,
     imageSrc: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
+    largeDescription: PropTypes.string.isRequired,
     skills: PropTypes.arrayOf(PropTypes.string).isRequired,
     demo: PropTypes.string,
     source: PropTypes.string.isRequired,

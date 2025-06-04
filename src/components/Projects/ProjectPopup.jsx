@@ -8,9 +8,9 @@ export const ProjectPopup = ({ project, onClose }) => {
         <button className={styles.closeButton} onClick={onClose}>×</button>
         <h2 className={styles.title}>{project.title}</h2>
         <div className={styles.content}>
-          <div className={styles.description}>
+          <div className={styles.largeDescription}>
             <h3>Description</h3>
-            <p>{project.description}</p>
+            <p>{project.largeDescription}</p>
             <div className={styles.skills}>
               <h3>Technologies Used</h3>
               <ul>
@@ -39,7 +39,7 @@ export const ProjectPopup = ({ project, onClose }) => {
 ProjectPopup.propTypes = {
   project: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    largeDescription: PropTypes.string.isRequired,
     skills: PropTypes.arrayOf(PropTypes.string).isRequired,
     videoUrl: PropTypes.string.isRequired,
   }).isRequired,

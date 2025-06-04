@@ -23,7 +23,7 @@
   max-height: none;
   overflow-y: auto;
   position: relative;
-
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -65,18 +65,18 @@
   padding-bottom: 2rem; /* Add bottom padding */
 }
 
-.description {
+.largeDescription {
   color: var(--color-text);
   width: 100%;
   max-width: 600px;
 }
 
-.description h3 {
+.largeDescription h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
-.description p {
+.largeDescription p {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
