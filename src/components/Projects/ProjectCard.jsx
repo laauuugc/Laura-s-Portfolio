@@ -12,32 +12,32 @@ export const ProjectCard = ({
 
   return (
     <>
-      <div className={styles.container}>
-        <img
-          src={getImageUrl(imageSrc)}
-          alt={`Image of ${title}`}
-          className={styles.image}
-        />
-        <h3 className={styles.title}>{title}</h3>
-        <p className={styles.description}>{description}</p>
-        <ul className={styles.skills}>
-          {skills.map((skill, id) => {
-            return (
-              <li key={id} className={styles.skill}>
-                {skill}
-              </li>
-            );
-          })}
-        </ul>
-        <div className={styles.links}>
+    <div className={styles.container}>
+      <img
+        src={getImageUrl(imageSrc)}
+        alt={`Image of ${title}`}
+        className={styles.image}
+      />
+      <h3 className={styles.title}>{title}</h3>
+      <p className={styles.description}>{description}</p>
+      <ul className={styles.skills}>
+        {skills.map((skill, id) => {
+          return (
+            <li key={id} className={styles.skill}>
+              {skill}
+            </li>
+          );
+        })}
+      </ul>
+      <div className={styles.links}>
           <button onClick={() => setShowPopup(true)} className={styles.link}>
-            Demo
+          Demo
           </button>
-          <a href={source} className={styles.link}>
-            Source
-          </a>
-        </div>
+        <a href={source} className={styles.link}>
+          Source
+        </a>
       </div>
+    </div>
       {showPopup && (
         <ProjectPopup
           project={{ title, largeDescription, skills, videoUrl }}
