@@ -7,7 +7,7 @@
       "skills": ["Java", "MySQL", "Java Swing"],
       "demo": "https://www.example.com",
       "source": "https://github.com/laauuugc/CafeManagement",
-      "videoUrl": "https://www.youtube.com/embed/your-video-id-1"
+      "videoUrl": "projects/CafeVideoShort.mp4"
     },
     {
       "title": "GANNT GENERATOR",
@@ -17,7 +17,7 @@
       "skills": ["C"],
       "demo": "https://www.example.com",
       "source": "https://github.com/laauuugc/PROJECT2/tree/main",
-      "videoUrl": "https://www.youtube.com/embed/your-video-id-2"
+      "videoUrl": "projects/GanntVideoShort.mp4"
     },
     {
       "title": "ML INCOME PREDICTOR",
@@ -27,7 +27,7 @@
       "skills": ["Python", "Jupyter Notebooks"],
       "demo": "https://www.example.com",
       "source": "https://github.com/laauuugc/Income",
-      "videoUrl": "https://www.youtube.com/embed/your-video-id-3"
+      "videoUrl": "projects/SalaryVideoShort.mp4"
     },
     {
       "title": "POMODORO WEBSITE",
@@ -37,6 +37,6 @@
       "skills": ["HTML", "CSS", "Javascript"],
       "demo": "https://www.example.com",
       "source": "https://github.com/laauuugc/Cute-Pomodoro",
-      "videoUrl": "https://www.youtube.com/embed/your-video-id-4"
+      "videoUrl": "projects/PomodoroVideoShort.mp4"
     }
   ]

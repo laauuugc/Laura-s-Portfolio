@@ -1,4 +1,6 @@
 import PropTypes from "prop-types";
+import React from "react";
+import { getImageUrl } from "../../utils";
 import styles from "./ProjectPopup.module.css";
 
 export const ProjectPopup = ({ project, onClose }) => {
@@ -8,7 +10,7 @@ export const ProjectPopup = ({ project, onClose }) => {
         <button className={styles.closeButton} onClick={onClose}>×</button>
         <h2 className={styles.title}>{project.title}</h2>
         <div className={styles.content}>
-          <div className={styles.largeDescription}>
+          <div className={styles.description}>
             <h3>Description</h3>
             <p>{project.largeDescription}</p>
             <div className={styles.skills}>
@@ -22,13 +24,14 @@ export const ProjectPopup = ({ project, onClose }) => {
           </div>
           <div className={styles.video}>
             <h3>Demo Video</h3>
-            <iframe
-              src={project.videoUrl}
+            <video
+              src={getImageUrl(project.videoUrl)}
+              controls
+              className={styles.videoPlayer}
               title={`${project.title} demo video`}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            >
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
