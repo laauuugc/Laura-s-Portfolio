@@ -5,7 +5,7 @@
       "description": "Matcha quality rating system.",
       "largeDescription": "This project is a matcha quality rating system powered with OpenAI API. It allows the user to check the matcha's colour, froth, and texture. It also allows the user to generate reports and statistics about the matchas added.",
       "skills": ["HTML", "Javascript", "CSS", "OpenAI API"],
-      "demo": "https://www.example.com",
+      "demo": " https://laauuugc.github.io/matchaRating/",
       "source": "https://github.com/laauuugc/matchaRating",
       "videoUrl": "projects/CafeVideoShort.mp4"
     },
