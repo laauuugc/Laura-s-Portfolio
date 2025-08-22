@@ -1,13 +1,13 @@
 [
   {
-      "title": "MATCHA RATING",
-      "imageSrc": "projects/matcha.png",
-      "description": "Matcha quality rating system.",
-      "largeDescription": "This project is a matcha quality rating system powered with OpenAI API. It allows the user to check the matcha's colour, froth, and texture. It also allows the user to generate reports and statistics about the matchas added.",
-      "skills": ["HTML", "Javascript", "CSS", "OpenAI API"],
+      "title": "HEXOUST GAME",
+      "imageSrc": "projects/hexoust.png",
+      "description": "Hexagonal board game for 2 players.",
+      "largeDescription": "This project is a HexOust game for two players developed with Java and JavaFX for object oriented software. It allows players to remove the opponent's stones with two types of moves, until one of the players have no stone on the board.",
+      "skills": ["Java", "JavaFX"],
       "demo": " https://laauuugc.github.io/matchaRating/",
-      "source": "https://github.com/laauuugc/matchaRating",
-      "videoUrl": "projects/CafeVideoShort.mp4"
+      "source": "https://github.com/laauuugc/HexOust_Group13",
+      "videoUrl": "projects/GameVideo.mp4"
     },
     {
       "title": "CAFE MANAGEMENT",
