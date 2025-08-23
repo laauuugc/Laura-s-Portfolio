@@ -1,5 +1,13 @@
 [
     {
+      "role": "FUTURE FEMALES IN TECH PARTICIPANT",
+      "organisation": "Workday",
+      "startDate": "August, 2025",
+      "endDate": "August, 2025",
+      "experiences": ["Engaged in workshadowing with software and application engineers, gaining insights into daily development tasks and methodologies.", "Participated in technical workshops focused on coding and problem-solving skills.", "Attended career development sessions covering resume building, interview techniques, and networking strategies."],
+      "imageSrc": "history/workday.jpeg"
+    },
+    {
       "role": "SENIOR GRAPHICS OFFICER",
       "organisation": "UCD Netsoc",
       "startDate": "May, 2024",
@@ -16,10 +24,21 @@
       "imageSrc": "history/science.jpeg"
     },
     {
+      "role": "WOMEN IN COMPUTER SCIENCE SUMMIT PARTICIPANT",
+      "organisation": "MongoDB",
+      "startDate": "May, 2025",
+      "endDate": "May, 2025",
+      "experiences": [
+        "Engaged in insightful sessions led by experts covering topics such as technical interviewing, workplace equality, and the different areas of software engineering.",
+        "Enhanced my understanding of databases like MongoDB, and how they keep up with the latest advancements in the data and technology field."
+      ],
+      "imageSrc": "history/mongo.jpeg"
+    },
+    {
       "role": "PEER MENTOR",
       "organisation": "University College Dublin",
       "startDate": "April, 2024",
-      "endDate": "Present",
+      "endDate": "May 2025",
       "experiences": ["Provided guidance and support to 10 new students, fostering a welcoming and inclusive community.", "Created and managed groups on social media, to enhance communication and organise educational events."],
       "imageSrc": "history/ucd.png"
     },
@@ -33,6 +52,16 @@
         "Coordinated events weekly with Trello and Excel, gathering feedback and leading to 93% member satisfaction."
       ],
       "imageSrc": "history/netsoc.jpeg"
+    },
+    {
+      "role": "SPRING TECHNOLOGY INSIGHTS PARTICIPANT",
+      "organisation": "Amazon",
+      "startDate": "April, 2025",
+      "endDate": "April, 2025",
+      "experiences": [
+        "Engaged in workshops learning about technical and behavioural interview processes, while also being offered an exclusive in-person interview chance."
+      ],
+      "imageSrc": "history/amazon.jpeg"
     },
     {
       "role": "MATHEMATICS TUTOR",
