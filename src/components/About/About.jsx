@@ -15,11 +15,11 @@ export const About = () => {
             <ul className={styles.aboutItems}>
             {[
           { icon: "about/cursorIcon.png", title: "Chapter 1", 
-            text: "Hey, I'm Laura. I'm a developer living in cloudy, most times too cloudy, Dublin. I could say coding is my passion but that's too cringe and I can only be so many cliches (guess whether I wear glasses or not)." },
+            text: "Hey, I'm Laura. I'm a software engineer living in cloudy, too cloudy, Dublin. I could say coding is my passion but that's too cringe and I can only be so many cliches (guess whether I wear glasses or not)." },
           { icon: "about/serverIcon.png", title: "Chapter 2", 
-            text: "Despite the funny accent, cool colours and character drawings, I promise I'm not a poser. Since I started college, I've held jobs at different university organisations as well as being self-employed. At the same time, I've created several projects and participated in hackathons." },
+            text: "Despite the funny accent, cool colours and illustrations, I promise I'm not a poser. I've held jobs at different university organisations as well as being self-employed. At the same time, I've created several projects and participated in hackathons." },
           { icon: "about/uiIcon.png", title: "Chapter 3", 
-            text: "I'm always on a quest to up my craft and learn new coding languages and tech. When I'm not on a computer, you can find me painting whatever is in my mind, reading fantasy books or cuddling my cat(Asia) while listening to Taylor Swift and drinking matcha." },
+            text: "I'm always on a quest to up my craft and learn new tech. When I'm not on a computer, you can find me painting whatever is in my mind, reading depressing books or cuddling my cat(Asia) while listening to Taylor Swift and drinking matcha." },
         ].map((item, index) => (
           <li className={styles.aboutItem} key={index}>
             <img src={getImageUrl(item.icon)} alt={`${item.title} icon`} />
