@@ -1,6 +1,6 @@
 [
   {
-    "title": "DELAY PREDICTOR",
+    "title": "ML DELAY PREDICTOR",
     "imageSrc": "projects/delay.png",
     "description": "Flight Delay Prediction & Analysis",
     "largeDescription": "This project is a Flight Delay Predictor investigating the factors associated with flight delays and building machine learning models to identify flights at risk of being delayed.",
