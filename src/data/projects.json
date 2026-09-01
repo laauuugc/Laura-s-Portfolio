@@ -1,5 +1,15 @@
 [
   {
+    "title": "GREENHOUSE GAS VISUALISATION",
+    "imageSrc": "projects/greenhouse.png",
+    "description": "Greenhouse Gas Emissions in Ireland Visualisation",
+    "largeDescription": "This project is an Information Visualisation for greenhouse gas emission in Ireland with Python and Vega-Lite.",
+    "skills": ["Python", "Vega-Lite"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/laauuugc/Assignment-2-Original-Information-Visualization",
+    "videoUrl": "projects/Laura_Visualisation_Video.mp4"
+  },
+  {
       "title": "HEXOUST GAME",
       "imageSrc": "projects/hexoust.png",
       "description": "Hexagonal board game for 2 players.",
