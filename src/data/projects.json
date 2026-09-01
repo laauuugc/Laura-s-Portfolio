@@ -1,6 +1,16 @@
 [
   {
-    "title": "GREENHOUSE GAS VISUALISATION",
+    "title": "DELAY PREDICTOR",
+    "imageSrc": "projects/delay.png",
+    "description": "Flight Delay Prediction & Analysis",
+    "largeDescription": "This project is a Flight Delay Predictor investigating the factors associated with flight delays and building machine learning models to identify flights at risk of being delayed.",
+    "skills": ["Python", "Jupyter Notebooks"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/laauuugc/Flight_Delays_Predictor",
+    "videoUrl": "projects/FlightDelayVideo.mp4"
+  },
+  {
+    "title": "EMISSIONS VISUALISATION",
     "imageSrc": "projects/greenhouse.png",
     "description": "Greenhouse Gas Emissions in Ireland Visualisation",
     "largeDescription": "This project is an Information Visualisation for greenhouse gas emission in Ireland with Python and Vega-Lite.",
