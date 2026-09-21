@@ -30,16 +30,6 @@
       "videoUrl": "projects/GameVideo.mp4"
     },
     {
-      "title": "CAFE MANAGEMENT",
-      "imageSrc": "projects/cafe.png",
-      "description": "Management system for a cafe in Madrid.",
-      "largeDescription": "This project is a management system for a cafe in Madrid. It allows the user to manage the cafe's inventory, orders, and customers. It also allows the user to generate reports and statistics about the cafe's performance.",
-      "skills": ["Java", "MySQL", "Java Swing"],
-      "demo": "https://www.example.com",
-      "source": "https://github.com/laauuugc/CafeManagement",
-      "videoUrl": "projects/CafeVideoShort.mp4"
-    },
-    {
       "title": "GANNT GENERATOR",
       "imageSrc": "projects/gannt.png",
       "description": "Create and edit Gannt Charts for project organisation.",
