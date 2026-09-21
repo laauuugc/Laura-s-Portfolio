@@ -1,6 +1,6 @@
 [
   {
-    "title": "ML DELAY PREDICTOR",
+    "title": "ML Delay Predictor",
     "imageSrc": "projects/delay.png",
     "description": "Flight Delay Prediction & Analysis",
     "largeDescription": "This project is a Flight Delay Predictor investigating the factors associated with flight delays and building machine learning models to identify flights at risk of being delayed.",
@@ -10,7 +10,7 @@
     "videoUrl": "projects/FlightDelayVideo.mp4"
   },
   {
-    "title": "EMISSIONS VISUALISATION",
+    "title": "Emissions Visualisation",
     "imageSrc": "projects/greenhouse.png",
     "description": "Greenhouse Gas Emissions in Ireland Visualisation",
     "largeDescription": "This project is an Information Visualisation for greenhouse gas emission in Ireland with Python and Vega-Lite.",
@@ -20,7 +20,7 @@
     "videoUrl": "projects/Laura_Visualisation_Video.mp4"
   },
   {
-      "title": "HEXOUST GAME",
+      "title": "HexOust Game",
       "imageSrc": "projects/hexoust.png",
       "description": "Hexagonal board game for 2 players.",
       "largeDescription": "This project is a HexOust game for two players developed with Java and JavaFX for object oriented software. It allows players to remove the opponent's stones with two types of moves, until one of the players have no stone on the board.",
@@ -30,9 +30,9 @@
       "videoUrl": "projects/GameVideo.mp4"
     },
     {
-      "title": "GANNT GENERATOR",
+      "title": "Gantt Generator",
       "imageSrc": "projects/gannt.png",
-      "description": "Create and edit Gannt Charts for project organisation.",
+      "description": "Create and edit Gantt charts for project organisation.",
       "largeDescription": "Generated a Gantt Chart Generator for Computer Science students to represent different tasks using Scrum. Created project using C in the Eclipse IDE and version control with Git/Github, redacted instructions with Word",
       "skills": ["C"],
       "demo": "https://www.example.com",
@@ -40,7 +40,7 @@
       "videoUrl": "projects/GanntVideoShort.mp4"
     },
     {
-      "title": "ML INCOME PREDICTOR",
+      "title": "ML Income Predictor",
       "imageSrc": "projects/project.png",
       "description": "Machine Learning project to predict high incomes",
       "largeDescription": "Generated an Income Predictor that allows data visualisation of most important features to get a high income. Created project using Python in a Jupyter Notebook with Pandas, Numpy, MatPlotLib, Sklearn and Seaborn",
@@ -50,7 +50,7 @@
       "videoUrl": "projects/SalaryVideoShort.mp4"
     },
     {
-      "title": "POMODORO WEBSITE",
+      "title": "Pomodoro Website",
       "imageSrc": "projects/pomodoro.png",
       "description": "Customisable pomodoro study method website.",
       "largeDescription": "Created a Pomodoro Timer website that allows users to customise their study sessions. Created project using HTML, CSS and Javascript",

@@ -12,10 +12,10 @@ export const ProjectCard = ({
 
   return (
     <>
-    <div className={styles.container}>
+    <article className={styles.container}>
       <img
         src={getImageUrl(imageSrc)}
-        alt={`Image of ${title}`}
+        alt={`Screenshot of ${title}`}
         className={styles.image}
       />
       <h3 className={styles.title}>{title}</h3>
@@ -30,14 +30,14 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-          <button onClick={() => setShowPopup(true)} className={styles.link}>
+          <button type="button" onClick={() => setShowPopup(true)} className={styles.link}>
           Demo
           </button>
-        <a href={source} className={styles.link}>
+        <a href={source} className={`${styles.link} ${styles.source}`} target="_blank" rel="noreferrer">
           Source
         </a>
       </div>
-    </div>
+    </article>
       {showPopup && (
         <ProjectPopup
           project={{ title, largeDescription, skills, videoUrl }}

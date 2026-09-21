@@ -1,103 +1,98 @@
-@import "../../vars.css";
-@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
-
 .navbar {
-    position: relative;
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 10px;
-    z-index: 2;
-    margin: 0 10%;
+    padding: 12px 8%;
+    z-index: 20;
+    background: rgba(246, 245, 239, 0.86);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--color-border);
 }
 
-.title {
-    display: none; /* No longer needed */
+.brand {
+    display: flex;
+    align-items: center;
 }
 
-/* Logo styling */
 .logo {
-    width: 150px;  /* Default size */
-    height: auto;  /* Maintain aspect ratio */
-}
-
-/* Further adjustments for extra small screens */
-@media screen and (max-width: 480px) {
-    .logo {
-        width: 100px;  /* Even smaller on very small devices */
-    }
+    width: 92px;
+    height: auto;
 }
 
 .menu {
     display: flex;
+    align-items: center;
+}
+
+.menuBtn {
+    display: none;
+    background: none;
+    border: none;
+    padding: 6px;
+}
+
+.menuBtn img {
+    width: 22px;
+    height: 22px;
 }
 
 .menuItems {
     display: flex;
-    gap: 47px;
+    gap: 8px;
     list-style: none;
 }
 
 .menuItems a {
-    font-size: 25px;
+    font-size: 16px;
+    font-weight: 500;
     color: var(--color-text);
     text-decoration: none;
-    font-family: 'Margarine', sans-serif; /* Apply Margarine font */
+    padding: 8px 14px;
+    border-radius: 999px;
+    transition: background 0.2s ease, color 0.2s ease;
 }
 
-/* For iPhone and iPad-sized screens */
+.menuItems a:hover {
+    background: rgba(237, 151, 90, 0.18);
+    color: var(--color-primary-hover);
+}
+
 @media screen and (max-width: 830px) {
     .logo {
-        width: 120px;  /* Smaller on mobile */
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .menu {
-        position: absolute;
-        right: 0;
-        margin-right: 5%;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 7px;
-        z-index: 3;
+        width: 78px;
     }
 
     .menuBtn {
         display: block;
-        cursor: pointer;
-        width: 20px; /* Set a small width */
-        height: 20px; /* Set a small height */
     }
-    
+
+    .menu {
+        position: relative;
+    }
+
     .menuItems {
         display: none;
+        position: absolute;
+        top: calc(100% + 12px);
+        right: 0;
         flex-direction: column;
-        align-items: center;
-        gap: 7px;
-        border-radius: 10px;
-        background: rgb(25, 55, 109);
-        background: linear-gradient(
-            0deg, 
-            rgba(25, 55, 109, 0.2) 0%, 
-            rgba(180, 222, 234, 1) 100%
-            );
-            padding: 24px 33px;
-            box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+        align-items: stretch;
+        min-width: 180px;
+        gap: 4px;
+        border-radius: var(--radius-sm);
+        background: var(--color-surface);
+        padding: 12px;
+        box-shadow: var(--shadow-md);
+        border: 1px solid var(--color-border);
+    }
+
+    .menuItems a {
+        font-size: 17px;
     }
 
     .menuOpen {
         display: flex;
-        z-index: 1;
-    }
-}
-
-/* For Laptop-sized screens (hide menu icon) */
-@media screen and (min-width: 830px) {
-    .menuBtn {
-        display: none; /* Hide menu icon */
     }
 }

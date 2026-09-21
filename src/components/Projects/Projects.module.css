@@ -1,47 +1,32 @@
-@import "../../vars.css";
-@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
-
 .container {
-  margin-top: 76px;
+  margin: 88px auto 0;
+  width: min(var(--max-width), 90%);
   color: var(--color-text);
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: center;
 }
 
 .title {
-  font-size: 55px;
+  font-size: clamp(36px, 5vw, 48px);
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  font-family: 'Margarine', sans-serif; /* Apply Margarine font */
+  font-family: var(--font-display);
+  text-align: center;
 }
 
 .projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  gap: 45px;
-  width: 100%;
-  overflow-x: auto; /* Enables horizontal scrolling */
-  scroll-snap-type: x mandatory; /* Smooth snap to projects */
-  -webkit-overflow-scrolling: touch; /* Improves touch scroll on iOS */
-  padding-bottom: 10px;
-}
-
-.projects > * {
-  scroll-snap-align: start; /* Each project aligns nicely */
-  flex: 0 0 auto; /* Prevents items from shrinking */
-  width: 300px; /* Adjust card size */
-  max-width: 90vw; /* Makes it responsive */
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
 }
 
 @media screen and (max-width: 830px) {
-  .projects {
-    gap: 10px;
+  .container {
+    margin-top: 64px;
   }
 
-  .projects > * {
-    width: 250px; /* Slightly smaller on mobile */
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 18px;
   }
 }

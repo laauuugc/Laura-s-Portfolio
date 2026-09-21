@@ -1,6 +1,6 @@
 [
   {
-    "role": "SOFTWARE ENGINEERING INTERN",
+    "role": "Software Engineering Intern",
     "organisation": "Workday",
     "startDate": "March, 2026",
     "endDate": "August, 2026",
@@ -12,7 +12,7 @@
     "imageSrc": "history/workday.jpeg"
   },
   {
-    "role": "FUTURE FEMALES IN TECH PARTICIPANT",
+    "role": "Future Females in Tech Participant",
     "organisation": "Workday",
     "startDate": "August, 2025",
     "endDate": "August, 2025",
@@ -24,7 +24,7 @@
     "imageSrc": "history/workday.jpeg"
   },
   {
-    "role": "SENIOR GRAPHICS OFFICER",
+    "role": "Senior Graphics Officer",
     "organisation": "UCD Netsoc",
     "startDate": "May, 2024",
     "endDate": "Oct, 2025",
@@ -35,7 +35,7 @@
     "imageSrc": "history/netsoc.jpeg"
   },
   {
-    "role": "STUDENT LEADER",
+    "role": "Student Leader",
     "organisation": "UCD College of Science",
     "startDate": "Sept, 2024",
     "endDate": "Dec, 2025",
@@ -45,7 +45,7 @@
     "imageSrc": "history/science.jpeg"
   },
   {
-    "role": "WOMEN IN COMPUTER SCIENCE SUMMIT PARTICIPANT",
+    "role": "Women in Computer Science Summit Participant",
     "organisation": "MongoDB",
     "startDate": "May, 2025",
     "endDate": "May, 2025",
@@ -56,7 +56,7 @@
     "imageSrc": "history/mongo.jpeg"
   },
   {
-    "role": "PEER MENTOR",
+    "role": "Peer Mentor",
     "organisation": "University College Dublin",
     "startDate": "April, 2024",
     "endDate": "May 2025",
@@ -67,7 +67,7 @@
     "imageSrc": "history/ucd.png"
   },
   {
-    "role": "FIRST-YEAR REPRESENTATIVE",
+    "role": "First-Year Representative",
     "organisation": "UCD Netsoc",
     "startDate": "Sept, 2023",
     "endDate": "May, 2024",
@@ -78,7 +78,7 @@
     "imageSrc": "history/netsoc.jpeg"
   },
   {
-    "role": "SPRING TECHNOLOGY INSIGHTS PARTICIPANT",
+    "role": "Spring Technology Insights Participant",
     "organisation": "Amazon",
     "startDate": "April, 2025",
     "endDate": "April, 2025",
@@ -88,7 +88,7 @@
     "imageSrc": "history/amazon.jpeg"
   },
   {
-    "role": "MATHEMATICS TUTOR",
+    "role": "Mathematics Tutor",
     "organisation": "IES Juan de Mairena",
     "startDate": "Sept, 2021",
     "endDate": "May, 2024",

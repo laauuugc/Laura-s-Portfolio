@@ -1,30 +1,29 @@
-@import "../../vars.css";
-@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
-
 .container {
   color: var(--color-text);
-  margin-top: 120px;
-  background-color: var(--color-secondary);
+  margin-top: 96px;
+  background: linear-gradient(135deg, #f7b4e4 0%, #f3c3a4 55%, #ed975a 140%);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 100vw;
-  padding: 58px 5%;
-  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 64px 8%;
+  gap: 32px;
 }
 
 .text h2 {
-  font-size: 80px;
+  font-size: clamp(40px, 6vw, 64px);
   font-weight: 700;
-  letter-spacing: 4px;
-  font-family: 'Margarine', sans-serif; /* Apply Margarine font */
+  letter-spacing: 0.04em;
+  font-family: var(--font-display);
+  line-height: 1.1;
 }
 
 .text p {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 400;
-  letter-spacing: 2px;
-  font-family: 'Margarine', sans-serif; /* Apply Margarine font */
+  margin-top: 8px;
+  color: var(--color-text);
 }
 
 .links {
@@ -32,62 +31,47 @@
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 16px;
+  gap: 14px;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 12px;
 }
 
-/* 🔹 Ensure all icons are the same size & responsive */
 .link img {
-  width: 40px; /* Fixed size for consistency */
-  height: 40px;
-  object-fit: contain; /* Prevent distortion */
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
 }
 
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 28px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-  transition: color 0.2s ease; /* Smooth transition */
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
 }
 
-/* 🔹 Change color on hover */
 .link a:hover {
-  color: #fff; /* Change text color */
+  color: #fff;
+  border-bottom-color: #fff;
 }
 
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
-    align-items: center; /* Center on smaller screens */
-    width: 100vw; /* 🔹 Keep side margins consistent */
-    padding: 40px 5%; /* 🔹 Maintain 5% side padding */
+    align-items: flex-start;
+    padding: 48px 8%;
   }
 
   .text {
-    text-align: center; /* Keep text centered */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .links {
-    align-items: flex-start;
-  }
-
-  .link img {
-    width: 35px; /* Slightly smaller icons for mobile */
-    height: 35px;
+    text-align: left;
   }
 
   .link a {
-    font-size: 24px; /* Adjust text size for smaller screens */
+    font-size: 16px;
   }
 }

@@ -5,6 +5,11 @@ import skills from "../../data/skills.json";
 import { getImageUrl } from "../../utils";
 import styles from "./Experience.module.css";
 
+const formatRole = (role) =>
+  role
+    .toLowerCase()
+    .replace(/\b\w/g, (letter) => letter.toUpperCase());
+
 export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
@@ -20,7 +25,7 @@ export const Experience = () => {
                   alt={`${historyItem.organisation} Logo`}
                 />
                 <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role} - ${historyItem.organisation}`}</h3>
+                  <h3>{`${formatRole(historyItem.role)} — ${historyItem.organisation}`}</h3>
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                   <ul>
                     {historyItem.experiences.map((experience, id) => {

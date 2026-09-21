@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className={styles.App}>
+      <a className={styles.skip} href="#about">Skip to content</a>
       {showStarter && <Starter onComplete={() => setShowStarter(false)} />}
       <Navbar />
       <Hero />

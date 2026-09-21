@@ -12,22 +12,22 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+          <img src={getImageUrl("contact/emailIcon.png")} alt="" />
           <a href="mailto:laauuugc@gmail.com">laauuugc@gmail.com</a>
         </li>
         <li className={styles.link}>
           <img
             src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
+            alt=""
           />
-          <a href="https://www.linkedin.com/in/laura-gonzalez-calleja/">Linkedin</a>
+          <a href="https://www.linkedin.com/in/laura-gonzalez-calleja/" target="_blank" rel="noreferrer">LinkedIn</a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/laauuugc">Github</a>
+          <img src={getImageUrl("contact/githubIcon.png")} alt="" />
+          <a href="https://github.com/laauuugc" target="_blank" rel="noreferrer">GitHub</a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/cvIcon.png")} alt="CV icon" />
+          <img src={getImageUrl("contact/cvIcon.png")} alt="" />
           <a href={getImageUrl("contact/LAURA_GONZALEZ_CV.pdf")} download="LAURA_GONZALEZ_CV.pdf">My CV</a>
         </li>
       </ul>

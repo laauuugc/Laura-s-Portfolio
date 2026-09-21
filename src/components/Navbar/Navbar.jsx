@@ -8,32 +8,39 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-        <a href="/">
+        <a href="/" className={styles.brand} aria-label="Laura González home">
                 <img className={styles.logo} 
                      src={getImageUrl("nav/logoNBG.png")} 
-                     alt="Logo"
+                     alt=""
                 />
         </a>
         <div className={styles.menu}>
-            <img className={styles.menuBtn} 
-            src={menuOpen
-                 ? getImageUrl("nav/closeIcon.png") 
-                 : getImageUrl("nav/menuIcon.png")
+            <button
+              type="button"
+              className={styles.menuBtn}
+              aria-expanded={menuOpen}
+              aria-label={menuOpen ? "Close menu" : "Open menu"}
+              onClick={() => setMenuOpen(!menuOpen)}
+            >
+              <img
+                src={menuOpen
+                  ? getImageUrl("nav/closeIcon.png") 
+                  : getImageUrl("nav/menuIcon.png")
                 } 
-            alt="menu-button"
-            onClick={() => setMenuOpen(!menuOpen)}
-            />
+                alt=""
+              />
+            </button>
 
-            <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+            <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
             onClick={() => setMenuOpen(false)}>
                 <li>
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
