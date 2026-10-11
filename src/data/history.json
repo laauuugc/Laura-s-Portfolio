@@ -1,5 +1,16 @@
 [
   {
+    "role": "Junior Software Engineering",
+    "organisation": "Nomad",
+    "startDate": "September, 2026",
+    "endDate": "Present",
+    "experiences": [
+      "Built full-stack features across Nomad’s platforms (Iris, Orchid, website and internal ops hub) using TypeScript, Next.js, and React.",
+      "Strengthened production reliability and security by leading framework upgrades and clearing dozens of security vulnerabilities."
+    ],
+    "imageSrc": "history/nomad.jpeg"
+  },
+  {
     "role": "Software Engineering Intern",
     "organisation": "Workday",
     "startDate": "March, 2026",
