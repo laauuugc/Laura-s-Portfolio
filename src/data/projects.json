@@ -5,8 +5,8 @@
     "description": "AI-agent audit product for banks",
     "largeDescription": "Cofounded in 4 days for Dublin AI Week’s Pressure Cooker by building tamper-evident signed records, DORA mapping and a live gap-detection demo. Made agent actions independently verifiable: any edit or missing action is caught, checked by a standalone verifier.",
     "skills": ["Typescript", "React"],
-    "demo": "https://www.shoirly.com",
-    "source": ""
+    "demo": "",
+    "source": "https://www.shoirly.com"
   },
   {
     "title": "ML Delay Predictor",
