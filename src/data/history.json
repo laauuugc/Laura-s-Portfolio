@@ -1,14 +1,25 @@
 [
   {
-    "role": "Junior Software Engineering",
+    "role": "Software Engineer",
     "organisation": "Nomad",
-    "startDate": "September, 2026",
+    "startDate": "October, 2026",
     "endDate": "Present",
     "experiences": [
       "Built full-stack features across Nomad’s platforms (Iris, Orchid, website and internal ops hub) using TypeScript, Next.js, and React.",
       "Strengthened production reliability and security by leading framework upgrades and clearing dozens of security vulnerabilities."
     ],
     "imageSrc": "history/nomad.jpeg"
+  },
+  {
+    "role": "Computer Science Demonstrator",
+    "organisation": "UCD School of Computer Science",
+    "startDate": "September, 2026",
+    "endDate": "Present",
+    "experiences": [
+      "Demonstrated C++ programming concepts and practical exercises, helping 50+ engineering students debug code and develop stronger problem-solving skills.",
+      "Provided one-to-one and group support during practical sessions, resolving coding issues and reinforcing key Computer Science concepts."
+    ],
+    "imageSrc": "history/compsci.jpeg"
   },
   {
     "role": "Software Engineering Intern",
